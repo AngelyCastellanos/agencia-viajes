@@ -1,7 +1,34 @@
 body {
-background-color: #f0f8ff;
+background-color: #f0dbff;
 font-family: Arial, sans-serif;
 color: #333;
 text-align: center;
 padding: 40px;
 }
+.instrumentos-destacados {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .instrumento {
+            width: 45%;
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+        .instrumento img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .instrumento h2 {
+            margin-top: 10px;
+            color: #333;
+        }
+        .instrumento p {
+            color: #777;
+        }
